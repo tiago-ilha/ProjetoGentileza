@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ControleDeAcesso", "2 - ControleDeAcesso", "{F8A7A33D-638B-4F17-9EE2-526B6448FA40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Core", "2.2 - Core", "{D008940A-094C-4F39-A094-DDB2EFE6BEE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 - Data", "2.3 - Data", "{9229970A-8F3A-48EE-A675-4BFD9E708018}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Negocio", "2.1 - Negocio", "{6FB72E4B-44C6-4BD2-B538-4D0F526DE319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web", "1 - Web", "{8A1AD27B-8A3E-42A5-8FD5-772EA6479960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 - Api", "2.0 - Api", "{50B39A0A-6E23-4035-85E9-725534BEC979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4 - IoC", "2.4 - IoC", "{4C32AFAE-6B76-4CB7-B482-1EB6236107D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.Core", "ProjetoGentileza.ControleDeAcesso.Core\ProjetoGentileza.ControleDeAcesso.Core.csproj", "{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.NucleoCompartilhado", "ProjetoGentileza.NucleoCompartilhado\ProjetoGentileza.NucleoCompartilhado.csproj", "{D54D1CF2-5B3A-468A-8738-AD4EE3CE1440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.Utilitarios", "ProjetoGentileza.Utilitarios\ProjetoGentileza.Utilitarios.csproj", "{7952C68F-37F9-490B-976E-C37DBF667C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.CoreTeste", "ProjetoGentileza.ControleDeAcesso.CoreTeste\ProjetoGentileza.ControleDeAcesso.CoreTeste.csproj", "{DCCF3335-72D7-44EF-B7AF-766C405DA623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.Data", "ProjetoGentileza.ControleDeAcesso.Data\ProjetoGentileza.ControleDeAcesso.Data.csproj", "{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.Negocio", "ProjetoGentileza.ControleDeAcesso.Negocio\ProjetoGentileza.ControleDeAcesso.Negocio.csproj", "{F056D502-2431-4FC4-AB39-C5BA4C71CE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.Api", "ProjetoGentileza.ControleDeAcesso.Api\ProjetoGentileza.ControleDeAcesso.Api.csproj", "{4BDC88A9-6B81-44AA-81D6-A233448F167C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoGentileza.ControleDeAcesso.IoC", "ProjetoGentileza.ControleDeAcesso.IoC\ProjetoGentileza.ControleDeAcesso.IoC.csproj", "{A5F6977A-2BDD-42A7-A95B-97E6170C31A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DA1EE7D1-E980-4279-9D8B-63BCABD66E1F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54D1CF2-5B3A-468A-8738-AD4EE3CE1440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54D1CF2-5B3A-468A-8738-AD4EE3CE1440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54D1CF2-5B3A-468A-8738-AD4EE3CE1440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54D1CF2-5B3A-468A-8738-AD4EE3CE1440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7952C68F-37F9-490B-976E-C37DBF667C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7952C68F-37F9-490B-976E-C37DBF667C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7952C68F-37F9-490B-976E-C37DBF667C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7952C68F-37F9-490B-976E-C37DBF667C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCF3335-72D7-44EF-B7AF-766C405DA623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCF3335-72D7-44EF-B7AF-766C405DA623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCF3335-72D7-44EF-B7AF-766C405DA623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCF3335-72D7-44EF-B7AF-766C405DA623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F056D502-2431-4FC4-AB39-C5BA4C71CE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F056D502-2431-4FC4-AB39-C5BA4C71CE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F056D502-2431-4FC4-AB39-C5BA4C71CE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F056D502-2431-4FC4-AB39-C5BA4C71CE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDC88A9-6B81-44AA-81D6-A233448F167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDC88A9-6B81-44AA-81D6-A233448F167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDC88A9-6B81-44AA-81D6-A233448F167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDC88A9-6B81-44AA-81D6-A233448F167C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F6977A-2BDD-42A7-A95B-97E6170C31A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F6977A-2BDD-42A7-A95B-97E6170C31A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F6977A-2BDD-42A7-A95B-97E6170C31A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F6977A-2BDD-42A7-A95B-97E6170C31A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D008940A-094C-4F39-A094-DDB2EFE6BEE0} = {F8A7A33D-638B-4F17-9EE2-526B6448FA40}
+		{9229970A-8F3A-48EE-A675-4BFD9E708018} = {F8A7A33D-638B-4F17-9EE2-526B6448FA40}
+		{6FB72E4B-44C6-4BD2-B538-4D0F526DE319} = {F8A7A33D-638B-4F17-9EE2-526B6448FA40}
+		{50B39A0A-6E23-4035-85E9-725534BEC979} = {F8A7A33D-638B-4F17-9EE2-526B6448FA40}
+		{4C32AFAE-6B76-4CB7-B482-1EB6236107D3} = {F8A7A33D-638B-4F17-9EE2-526B6448FA40}
+		{6DCE88C6-7E65-43FF-BCBE-A3B533DDDC62} = {D008940A-094C-4F39-A094-DDB2EFE6BEE0}
+		{DCCF3335-72D7-44EF-B7AF-766C405DA623} = {D008940A-094C-4F39-A094-DDB2EFE6BEE0}
+		{C9893FFD-EE52-4E9C-85A8-7CCCF0AA226C} = {9229970A-8F3A-48EE-A675-4BFD9E708018}
+		{F056D502-2431-4FC4-AB39-C5BA4C71CE21} = {6FB72E4B-44C6-4BD2-B538-4D0F526DE319}
+		{4BDC88A9-6B81-44AA-81D6-A233448F167C} = {50B39A0A-6E23-4035-85E9-725534BEC979}
+		{A5F6977A-2BDD-42A7-A95B-97E6170C31A9} = {4C32AFAE-6B76-4CB7-B482-1EB6236107D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
